@@ -1,9 +1,8 @@
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+<div class="container main-container">
+  <h3>FireChat</h3>
 
-<hr>
+  <div class="chat-window">
+    <app-chat></app-chat>
+  </div>
 
-<ul>
-  <li class="text" *ngFor="let chat of chats | async">
-    {{ chat.message }}
-  </li>
-</ul>
+</div>
